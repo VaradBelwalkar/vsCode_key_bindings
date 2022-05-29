@@ -1,0 +1,162 @@
+//Override the default keybindings in default-keybindings.json file by writing here
+
+
+
+[
+    {
+        "key": "alt+k",
+        "command": "cursorDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+i",
+        "command": "cursorUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+l",
+        "command": "cursorRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+j",
+        "command": "cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+k",
+        "command": "cursorDownSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+i",
+        "command": "cursorUpSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+l",
+        "command": "cursorRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+j",
+        "command": "cursorLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+;",
+        "command": "cursorWordEndRight",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "alt+h",
+        "command": "cursorWordLeft",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "shift+alt+h",
+        "command": "cursorWordLeftSelect",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "shift+alt+;",
+        "command": "cursorWordEndRightSelect",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "alt+.",
+        "command": "cursorLineEnd"
+    },
+    {
+        "key": "alt+,",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "shift+alt+.",
+        "command": "cursorLineEndSelect"
+    },
+    {
+        "key": "shift+alt+,",
+        "command": "cursorLineStartSelect"
+    },
+    {
+        "key": "alt+m",
+        "command": "macros.addLeftCurlyBrace"
+    },
+    {
+        "key": "alt+9",
+        "command": "macros.addLeftRoundBrace"
+    },
+    {
+        "key": "alt+w",
+        "command": "macros.addLeftSquareBrace"
+    },
+    {
+        "key": "alt+=",
+        "command": "macros.addPlus"
+    },
+    {
+        "key": "alt+/",
+        "command": "macros.addQuestionMark"
+    },
+    {
+        "key": "alt+o",
+        "command": "macros.addRightCurlyBrace"
+    },
+    {
+        "key": "alt+0",
+        "command": "macros.addRightRoundBrace"
+    },
+    {
+        "key": "alt+e",
+        "command": "macros.addRightSquareBrace"
+    },
+    {
+        "key": "alt+-",
+        "command": "macros.addUnderScore"
+    },
+    {
+        "key": "alt+\\",
+        "command": "macros.addVertical"
+    },
+    {
+        "key": "alt+7",
+        "command": "macros.doAmpersand"
+    },
+    {
+        "key": "alt+8",
+        "command": "macros.doAsterisk"
+    },
+    {
+        "key": "alt+2",
+        "command": "macros.doAt"
+    },
+    {
+        "key": "alt+6",
+        "command": "macros.doCap"
+    },
+    {
+        "key": "alt+4",
+        "command": "macros.doDollar"
+    },
+    {
+        "key": "alt+1",
+        "command": "macros.doExclamation"
+    },
+    {
+        "key": "alt+3",
+        "command": "macros.doHash"
+    },
+    {
+        "key": "alt+5",
+        "command": "macros.doPercent"
+    },
+    {
+        "key": "alt+d",
+        "command": "macros.multiCursorDown"
+    },
+    {
+        "key": "alt+f",
+        "command": "macros.multiCursorUp"
+    }
+]
