@@ -1,5 +1,5 @@
-
-"macros":{
+[
+        "macros":{
 
         "multiCursorUp":[
             "cursorUp",
@@ -85,6 +85,19 @@
           "addVertical": [
             {"command": "type", "args": {"text": "|"}},
             "insertSnippet"
+          ],
+          "selectMultipleLinesAbove": [
+            "cursorUpSelect",
+            "cursorUpSelect",
+            "cursorUpSelect",
+            "cursorUpSelect"
+          ],
+          "selectMultipleLinesDown": [
+            "cursorDownSelect",
+            "cursorDownSelect",
+            "cursorDownSelect",
+            "cursorDownSelect"
           ]
 
     }
+]
