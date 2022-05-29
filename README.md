@@ -17,5 +17,3 @@ CommandName with the custom command available right there in "settings.json" fil
     ii)Paste the contents into  "keybindings.json" for user.Then save.
 
 8.This keybindings overrite the default keybidings available in the default "keybindings.json" file which is read-only for user.
-
-                                                                      Hope it helps....
