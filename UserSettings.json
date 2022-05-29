@@ -1,0 +1,90 @@
+
+"macros":{
+
+        "multiCursorUp":[
+            "cursorUp",
+            "cursorUp",
+            "cursorUp",
+            "cursorUp"
+        ],
+        "multiCursorDown":[
+            "cursorDown",
+            "cursorDown",
+            "cursorDown",
+            "cursorDown"
+        ],
+
+        "addLeftSquareBrace": [
+            {"command": "type", "args": {"text": "["}},
+            "insertSnippet"
+          ],
+          "addRightSquareBrace": [
+            {"command": "type", "args": {"text": "]"}},
+            "insertSnippet"
+          ],
+          "addLeftCurlyBrace": [
+            {"command": "type", "args": {"text": "{"}},
+            "insertSnippet"
+          ],
+          "addRightCurlyBrace": [
+            {"command": "type", "args": {"text": "}"}},
+            "insertSnippet"
+          ],
+          "addQuestionMark": [
+            {"command": "type", "args": {"text": "?"}},
+            "insertSnippet"
+          ],
+          "doExclamation": [
+            {"command": "type", "args": {"text": "!"}},
+            "insertSnippet"
+          ],
+          "doAt": [
+            {"command": "type", "args": {"text": "@"}},
+            "insertSnippet"
+          ],
+          "doHash": [
+            {"command": "type", "args": {"text": "#"}},
+            "insertSnippet"
+          ],
+          "doDollar": [
+            {"command": "type", "args": {"text": "$"}},
+            "insertSnippet"
+          ],
+          "doPercent": [
+            {"command": "type", "args": {"text": "%"}},
+            "insertSnippet"
+          ],
+          "doCap": [
+            {"command": "type", "args": {"text": "^"}},
+            "insertSnippet"
+          ],
+          "doAmpersand": [
+            {"command": "type", "args": {"text": "&"}},
+            "insertSnippet"
+          ],
+          "doAsterisk": [
+            {"command": "type", "args": {"text": "*"}},
+            "insertSnippet"
+          ],
+          "addRightRoundBrace": [
+            {"command": "type", "args": {"text": ")"}},
+            "insertSnippet"
+          ],
+          "addLeftRoundBrace": [
+            {"command": "type", "args": {"text": "("}},
+            "insertSnippet"
+          ],
+          "addUnderScore": [
+            {"command": "type", "args": {"text": "_"}},
+            "insertSnippet"
+          ],
+          "addPlus": [
+            {"command": "type", "args": {"text": "+"}},
+            "insertSnippet"
+          ],
+          "addVertical": [
+            {"command": "type", "args": {"text": "|"}},
+            "insertSnippet"
+          ]
+
+    }
