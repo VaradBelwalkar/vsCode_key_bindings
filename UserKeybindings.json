@@ -158,5 +158,60 @@
     {
         "key": "alt+f",
         "command": "macros.multiCursorUp"
+    },
+    {
+        "key": "alt+n",
+        "command": "deleteLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+v",
+        "command": "deleteRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+u",
+        "command": "deleteWordLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+t",
+        "command": "deleteWordRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+backspace",
+        "command": "deleteWordLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+delete",
+        "command": "deleteWordRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "macros.selectMultipleLinesAbove"
+    },
+    {
+        "key": "shift+alt+d",
+        "command": "macros.selectMultipleLinesDown"
+    },
+    {
+        "key": "shift+alt+o",
+        "command": "editor.action.clipboardPasteAction"
+    },
+    {
+        "key": "shift+alt+m",
+        "command": "editor.action.clipboardCopyAction"
+    },
+    {
+        "key": "shift+alt+n",
+        "command": "editor.action.clipboardCutAction"
+    },
+    {
+        "key": "alt+enter",
+        "command": "editor.action.insertLineAfter",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]
