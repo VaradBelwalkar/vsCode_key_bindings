@@ -152,11 +152,11 @@
         "command": "macros.doPercent"
     },
     {
-        "key": "alt+f",
+        "key": "alt+d",
         "command": "macros.multiCursorDown"
     },
     {
-        "key": "alt+d",
+        "key": "alt+f",
         "command": "macros.multiCursorUp"
     },
     {
@@ -190,11 +190,11 @@
         "when": "textInputFocus && !editorReadonly"
     },
     {
-        "key": "shift+alt+d",
+        "key": "shift+alt+f",
         "command": "macros.selectMultipleLinesAbove"
     },
     {
-        "key": "shift+alt+f",
+        "key": "shift+alt+d",
         "command": "macros.selectMultipleLinesDown"
     },
     {
